@@ -41,7 +41,6 @@ h2 {
   line-height: 22.5px;
   font-family: "Courier New", Courier, monospace;
   color: #c6dcff;
-  cursor: pointer;
   opacity: 1;
   transition: opacity 0.1s linear;
 }
@@ -51,7 +50,12 @@ h2 {
   display: block;
   width: 280px;
   opacity: 1;
+  cursor: default;
   transition: opacity 0.1s linear;
+}
+
+.img:hover {
+  cursor: pointer;
 }
 
 .show {
